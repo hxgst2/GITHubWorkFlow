@@ -23,6 +23,12 @@ namespace GitHub_WorkFlow
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lbl1.Content = "Buttn Clicked";
         }
     }
 }
