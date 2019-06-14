@@ -29,6 +29,7 @@ namespace GitHub_WorkFlow
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             lbl1.Content = "Buttn Clicked";
+            lbl1.Content = "My New Branch";
         }
     }
 }
